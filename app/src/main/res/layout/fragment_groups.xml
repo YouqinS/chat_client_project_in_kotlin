@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_bright"
+    android:scrollbars="vertical"
+    android:scrollbarSize="5dp"
+    android:scrollbarStyle="insideInset"
+    tools:context=".home_screen.GroupsFragment">
+
+    <ListView
+        android:id="@+id/listView_FragmentGroups"
+        android:transcriptMode="alwaysScroll"
+        android:stackFromBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</FrameLayout>

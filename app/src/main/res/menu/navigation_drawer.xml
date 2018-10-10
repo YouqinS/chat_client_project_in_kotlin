@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_public_group"
+        android:title="@string/public_group_menu"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/menu_new_message"
+        android:title="@string/new_message_menu"/>
+
+    <item android:id="@+id/newGroup"
+        android:title="@string/new_group_menu" />
+
+    <item android:id="@+id/menu_sign_out"
+        android:title="@string/_menu" />
+
+    <item android:id="@+id/account"
+        android:title="@string/account_nav_menu"/>
+
+
+</menu>

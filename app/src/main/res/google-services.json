@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "39492905652",
+    "firebase_url": "https://chatapp04-92109.firebaseio.com",
+    "project_id": "chatapp04-92109",
+    "storage_bucket": "chatapp04-92109.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39492905652:android:264c7cc47d464f53",
+        "android_client_info": {
+          "package_name": "sunc.youqin.chatapp04"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39492905652-ke43iuadf860jho0tsd1af0aegvhvuuu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZybY9H2kr9rG67UrM3cIysBWdqUmRdzw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

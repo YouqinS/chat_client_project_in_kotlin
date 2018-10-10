@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/chatlogs_bottom_nav"
+        android:icon="@drawable/ic_chatlogs_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/_bottom_nav"/>
+
+    <item android:id="@+id/contacts_bottom_nav"
+        android:icon="@drawable/ic_contacts_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/contacts_bottom_nav"/>
+
+    <item android:id="@+id/groups_bottom_nav"
+        android:icon="@drawable/ic_group_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="@string/groups_botton_nav"/>
+
+</menu>

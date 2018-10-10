@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/holo_blue_bright"
+    android:scrollbars="vertical"
+    android:scrollbarSize="5dp"
+    android:scrollbarStyle="insideInset"
+    tools:context=".home_screen.ContactsFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewFragmentContacts"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</FrameLayout>
